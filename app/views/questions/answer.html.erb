@@ -1,0 +1,15 @@
+<div class="card border-dark mb-3 mt-3">
+  <div class="card-body">
+    <%=params[:answer]%>
+    <p>- You</p>
+  </div>
+</div>
+
+<div class="card border-dark mb-3" style="background-color: #fefae0">
+  <div class="card-body">
+<%=@answer%>
+<p> - Your Coach</p>
+ </div>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
